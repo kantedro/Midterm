@@ -1,0 +1,238 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My try of styling*/ 
+
+header{
+    width: 1024px;
+    height: 341px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+
+header img{
+    position: absolute;
+    top: 0; left: 0;
+
+
+}
+header h1{
+    position: absolute;
+    width: 100%;   
+    text-align: center;
+    top: 200px;
+}
+.list {
+    list-style-type:circle;
+    color: black;
+    font-size: 15px;
+    margin:  auto;
+    padding: 30px;
+
+}
+
+.HOME{
+
+    background-color: #D4E9E7;
+    display: inline-block;
+    padding:  8px;
+    font-size: 24px;
+    border-right: 1px solid;
+    margin: auto;
+    position: absolute;
+    background-color: #D4E9E7;
+    box-align:border-right;
+}
+
+
+.HOME:last-child{
+    border-right: none;
+}
+.HOME a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    
+
+
+}
+article{
+    width: 984px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px
+    
+}
+.container {
+    position: ;
+
+    width: 1024px;
+    background-color: #D4E9E7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+
+h1 {
+    font-size: 64px;
+    color: white;
+}
+
+h2 { 
+    font-size:  36.2px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 16px;
+    line-height:  24px;
+
+}
+
+
+
+
+main{
+    padding: 10px;
+    width: 1004px;
+
+}
+
+h3{
+
+font-size: 36px;
+padding: 10px;
+margin-bottom: -20px;
+}
+
+article img{
+
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+}
+
+h4{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+
+}
+
+h5{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#options {
+    display: list-item;
+   background-color: black;
+}
+
+#Name{
+    font-size: 16px;
+    margin-bottom: 12px;
+    width: 955px;
+    height: 25px;
+
+}
+#Email{
+    font-size: 16px;
+    margin-bottom: 12px;
+    width: 955px;
+    height: 25px;
+}
+
+#Message{
+    font-size: 16px;
+    margin-bottom: 12px;
+    width: 955px;
+    height: 70px;
+}
+
+.form{
+
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#wrap{
+
+    width: 966px;
+    margin-left: 5px;
+    margin-right: 2510px;
+    background:#D4E9E7;
+    overflow: hidden;
+    padding: 15px;
+    border: 1px solid black;
+    
+}
+
+
+
+
+
+footer{
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background-color: #D4E9E7;
+}
+
